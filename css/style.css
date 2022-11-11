@@ -89,7 +89,7 @@ header img {
     background-image: url("../imgs/background.jpg");
     background-size: cover;
     background-position: center right;
-    min-height: 40vh;
+    min-height: 60vh;
     display: flex;
 }
 
