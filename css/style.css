@@ -37,7 +37,9 @@ header .wrapper {
 
 header {
     background-color: black;
+    width: 100%;
 }
+
 
 .primary-nav ul {
     list-style-type: none;
@@ -160,12 +162,13 @@ footer {
 
 h1 {
     font-size: 36px;
+    text-transform: uppercase;
     
 }
 
 h2 {
     font-size: 32px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 h4 {
@@ -188,6 +191,14 @@ p {
     text-align: left;
 }
 .footertext {
+    text-align: center;
+    color: #232323;
+}
+.logo {
+    font-size: 30px;
+    text-align: justify;
+}
+.feature2text {
     text-align: center;
 }
 
@@ -236,7 +247,7 @@ p {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 817px) {
     .feature-grid {
         grid-template-columns: 1fr;
     }
@@ -268,7 +279,9 @@ p {
         grid-column: 1;
         text-align: center;
     }
-    /* Menu Starts here */
+    /* Menu Starts here 
+        Code Borrowed From: https://codepen.io/erikterwan/pen/EVzeRP
+    */
     #menuToggle
 {
   display: block;
