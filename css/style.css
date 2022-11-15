@@ -91,7 +91,6 @@ header {
     display: flex;
 }
 
-
 .section1 {
     color: #2B315E;
 }
@@ -131,13 +130,11 @@ header {
     text-align: right;
 }
 
-
 footer {
     background-color: white;
     text-align: center;
     color: black;
 }
-
 
 .button {
     padding: 15px 30px;
